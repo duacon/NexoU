@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - Nexo</title>
+    
+    <link rel="stylesheet" href="/src/css/perfil.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <aside class="menu-lateral">
+        
+        <header class="menu-lateral-cabecera">
+            <img src="/src/images/logo-nexou.png" alt="Logo Nexo" class="menu-lateral-logo">
+        </header>
+        
+        <nav class="menu-lateral-navegacion">
+            <ul class="menu-lateral-lista">
+                <li class="menu-lateral-item">
+                    <a href="#" class="menu-lateral-enlace">
+                        <img src="/src/images/icono-inicio.png" alt="" class="menu-lateral-icono">
+                        <p>Inicio</p>
+                    </a>
+                </li>
+                <li class="menu-lateral-item">
+                    <a href="#" class="menu-lateral-enlace">
+                        <img src="/src/images/icono-libro-cerrado.png" alt="" class="menu-lateral-icono">
+                        <p>Biblioteca</p>
+                    </a>
+                </li>
+                <li class="menu-lateral-item">
+                    <a href="#" class="menu-lateral-enlace">
+                        <img src="/src/images/icono-laptop.png" alt="" class="menu-lateral-icono">
+                        <p>Tecnología</p>
+                    </a>
+                </li>
+                <li class="menu-lateral-item">
+                    <a href="#" class="menu-lateral-enlace menu-lateral-enlace-con-notificacion">
+                        <img src="/src/images/icono-calendario.png" alt="" class="menu-lateral-icono">
+                        <p>Reservas</p>
+                        <strong class="menu-lateral-notificacion">3</strong>
+                    </a>
+                </li>
+                <li class="menu-lateral-item menu-lateral-item-activo">
+                    <a href="#" class="menu-lateral-enlace">
+                        <img src="/src/images/icono-perfil.png" alt="" class="menu-lateral-icono-perfil">
+                        <p>Perfil</p>
+                    </a>
+                </li>
+                <li class="menu-lateral-item">
+                    <a href="#" class="menu-lateral-enlace">
+                        <img src="/src/images/icono-soporte.png" alt="" class="menu-lateral-icono">
+                        <p>Soporte</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <footer class="menu-lateral-pie">
+            <figure class="menu-lateral-usuario-actual">
+                <img src="/src/images/imagen-perfil.png" alt="Avatar de perfil" class="menu-lateral-usuario-avatar">
+                <figcaption class="menu-lateral-usuario-info">
+                    <p class="menu-lateral-usuario-nombre">Maria E. Gónzalez</p>
+                    <p class="menu-lateral-usuario-rol">Estudiante activo</p>
+                </figcaption>
+            </figure>
+            
+            <a href="#" class="menu-lateral-cerrar-sesion">
+                <img src="/src/images/icono-cerrar-sesion.png" alt="" class="menu-lateral-icono-cerrar-sesion">
+                <p class="menu-lateral-cerrar-sesion-parrafo">Cerrar Sesión</p>
+            </a>
+        </footer>
+    </aside>
+
+    <main class="contenido-principal">
+        
+        <header class="contenido-cabecera">
+            <h1 class="contenido-cabecera-titulo">Mi Perfil</h1>
+            <p class="contenido-cabecera-subtitulo">Gestiona tu información personal y configuración de cuenta</p>
+        </header>
+        
+        <section class="perfil-columnas">
+            
+            <section class="perfil-columna-izquierda">
+                
+                <article class="tarjeta-usuario">
+                    <figure class="tarjeta-usuario-avatar-contenedor">
+                        <img src="/src/images/imagen-perfil.png" alt="Foto de María Elena González" class="tarjeta-usuario-avatar">
+                    </figure>
+                    <h2 class="tarjeta-usuario-nombre">María Elena González</h2>
+                    <p class="tarjeta-usuario-id">ID: 20240156</p>
+                    <p class="tarjeta-usuario-estado tarjeta-usuario-estado-activo">Activo</p>
+                    
+                    <ul class="tarjeta-usuario-info-lista">
+                        <li class="tarjeta-usuario-info-item">
+                            <p>maria.gonzalez@universidad.edu.co</p>
+                        </li>
+                        <li class="tarjeta-usuario-info-item">
+                            <p>+57 300 123 4567</p>
+                        </li>
+                        <li class="tarjeta-usuario-info-item">
+                            <p>Ingeniería de Sistemas</p>
+                        </li>
+                    </ul>
+                    
+                    <p class="tarjeta-usuario-semestre">
+                        8° Semestre
+                    </p>
+                    
+                    <button type="button" class="tarjeta-usuario-boton-editar">Editar Perfil</button>
+                </article>
+                
+                <article class="tarjeta-estadisticas">
+                    <h3 class="tarjeta-estadisticas-titulo">Estadísticas de Uso</h3>
+                    <ul class="tarjeta-estadisticas-lista">
+                        <li class="tarjeta-estadisticas-item">
+                            <p class="tarjeta-estadisticas-etiqueta">Total de reservas</to>
+                            <p class="tarjeta-estadisticas-valor">47</p>
+                        </li>
+                        <li class="tarjeta-estadisticas-item">
+                            <p class="tarjeta-estadisticas-etiqueta">Reservas activas</p>
+                            <p class="tarjeta-estadisticas-valor">3</p>
+                        </li>
+                        <li class="tarjeta-estadisticas-item">
+                            <p class="tarjeta-estadisticas-etiqueta">Este mes</p>
+                            <p class="tarjeta-estadisticas-valor">12</p>
+                        </li>
+                        <li class="tarjeta-estadisticas-item">
+                            <p class="tarjeta-estadisticas-etiqueta">Categoría favorita</p>
+                            <p class="tarjeta-estadisticas-valor">Tecnología</p>
+                        </li>
+                        <li class="tarjeta-estadisticas-item">
+                            <p class="tarjeta-estadisticas-etiqueta">Tiempo promedio</p>
+                            <p class="tarjeta-estadisticas-valor">3.2 horas</p>
+                        </li>
+                        <li class="tarjeta-estadisticas-item">
+                            <p class="tarjeta-estadisticas-etiqueta">Puntualidad</p>
+                            <p class="tarjeta-estadisticas-valor tarjeta-estadisticas-valor-puntualidad">98%</p>
+                        </li>
+                    </ul>
+                </article>
+                
+            </section>
+            
+            <section class="perfil-columna-derecha">
+                
+                <section class="panel-tabs">
+                    
+                    <nav class="panel-tabs-navegacion">
+                        <ul class="panel-tabs-lista">
+                            <li class="panel-tabs-item panel-tabs-item-activo">
+                                <a href="#" class="panel-tabs-enlace">Información</a>
+                            </li>
+                            <li class="panel-tabs-item">
+                                <a href="#" class="panel-tabs-enlace">Actividad</a>
+                            </li>
+                            <li class="panel-tabs-item">
+                                <a href="#" class="panel-tabs-enlace">Configuración</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <article class="panel-contenido panel-contenido-informacion">
+                        <h3 class="panel-contenido-titulo">Información Personal</h3>
+                        
+                        <ul class="panel-contenido-lista-info">
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">Nombre completo</p>
+                                <p class="panel-contenido-info-valor">María Elena González</p>
+                            </li>
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">ID de estudiante</p>
+                                <p class="panel-contenido-info-valor">20240156</p>
+                            </li>
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">Correo electrónico</p>
+                                <p class="panel-contenido-info-valor">maria.gonzalez@universidad.edu.co</p>
+                            </li>
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">Teléfono</p>
+                                <p class="panel-contenido-info-valor">+57 300 123 4567</p>
+                            </li>
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">Programa académico</p>
+                                <p class="panel-contenido-info-valor">Ingeniería de Sistemas</p>
+                            </li>
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">Semestre actual</p>
+                                <p class="panel-contenido-info-valor">8° Semestre</p>
+                            </li>
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">Fecha de Ingreso</p>
+                                <p class="panel-contenido-info-valor">Febrero 2021</p>
+                            </li>
+                            <li class="panel-contenido-info-item">
+                                <p class="panel-contenido-info-etiqueta">Estado</p>
+                                <p class="panel-contenido-info-valor panel-contenido-info-valor-estado">Activo</p>
+                            </li>
+                        </ul>
+                    </article>
+                    
+                </section>
+                
+            </section>
+            
+        </section>
+        
+    </main>
+
+</body>
+</html>
