@@ -1,83 +1,262 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mis Reservas - NexoU</title>
-    
-    <link rel="stylesheet" href="/src/css/mis-reservas.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
 
+    <link rel="stylesheet" href="/src/css/mis-reservas.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <aside class="menu-lateral">
-        
-        <header class="menu-lateral-cabecera">
-            <img src="/src/images/logo-nexou.png" alt="Logo Nexo" class="menu-lateral-logo">
-        </header>
-        
-        <nav class="menu-lateral-navegacion">
-            <ul class="menu-lateral-lista">
-                <li class="menu-lateral-item">
-                    <a href="./inicio.html" class="menu-lateral-enlace">
-                        <img src="/src/images/icono-inicio.png" alt="" class="menu-lateral-icono">
-                        <p>Inicio</p>
-                    </a>
-                </li>
-                <li class="menu-lateral-item">
-                    <a href="./recursos-biblioteca.html" class="menu-lateral-enlace">
-                        <img src="/src/images/icono-libro-cerrado.png" alt="" class="menu-lateral-icono">
-                        <p>Biblioteca</p>
-                    </a>
-                </li>
-                <li class="menu-lateral-item">
-                    <a href="./recursos-tecnologicos.html" class="menu-lateral-enlace">
-                        <img src="/src/images/icono-laptop.png" alt="" class="menu-lateral-icono">
-                        <p>Tecnología</p>
-                    </a>
-                </li>
-                <li class="menu-lateral-item menu-lateral-item-activo">
-                    <a href="./mis-reservas.html" class="menu-lateral-enlace menu-lateral-enlace-con-notificacion">
-                        <img src="/src/images/icono-calendario.png" alt="" class="menu-lateral-icono-perfil">
-                        <p>Reservas</p>
-                        <strong class="menu-lateral-notificacion">3</strong>
-                    </a>
-                </li>
-                <li class="menu-lateral-item">
-                    <a href="./perfil.html" class="menu-lateral-enlace">
-                        <img src="/src/images/icono-perfil.png" alt="" class="menu-lateral-icono">
-                        <p>Perfil</p>
-                    </a>
-                </li>
-                <li class="menu-lateral-item">
-                    <a href="./soporte.html" class="menu-lateral-enlace">
-                        <img src="/src/images/icono-soporte.png" alt="" class="menu-lateral-icono">
-                        <p>Soporte</p>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        
-        <footer class="menu-lateral-pie">
-            <figure class="menu-lateral-usuario-actual">
-                <img src="/src/images/imagen-perfil.png" alt="Avatar de perfil" class="menu-lateral-usuario-avatar">
-                <figcaption class="menu-lateral-usuario-info">
-                    <p class="menu-lateral-usuario-nombre">Maria E. Gónzalez</p>
-                    <p class="menu-lateral-usuario-rol">Estudiante activo</p>
-                </figcaption>
-            </figure>
-            
-            <a href="../../index.html" class="menu-lateral-cerrar-sesion">
-                <img src="/src/images/icono-cerrar-sesion.png" alt="" class="menu-lateral-icono-cerrar-sesion">
-                <p class="menu-lateral-cerrar-sesion-parrafo">Cerrar Sesión</p>
+      <header class="menu-lateral-cabecera">
+        <img
+          src="/src/images/logo-nexou.png"
+          alt="Logo Nexo"
+          class="menu-lateral-logo"
+        />
+      </header>
+
+      <nav class="menu-lateral-navegacion">
+        <ul class="menu-lateral-lista">
+          <li class="menu-lateral-item">
+            <a href="./inicio.html" class="menu-lateral-enlace">
+              <img
+                src="/src/images/icono-inicio.png"
+                alt=""
+                class="menu-lateral-icono"
+              />
+              <p>Inicio</p>
             </a>
-        </footer>
+          </li>
+          <li class="menu-lateral-item">
+            <a href="./recursos-biblioteca.html" class="menu-lateral-enlace">
+              <img
+                src="/src/images/icono-libro-cerrado.png"
+                alt=""
+                class="menu-lateral-icono"
+              />
+              <p>Biblioteca</p>
+            </a>
+          </li>
+          <li class="menu-lateral-item">
+            <a href="./recursos-tecnologicos.html" class="menu-lateral-enlace">
+              <img
+                src="/src/images/icono-laptop.png"
+                alt=""
+                class="menu-lateral-icono"
+              />
+              <p>Tecnología</p>
+            </a>
+          </li>
+          <li class="menu-lateral-item menu-lateral-item-activo">
+            <a
+              href="./mis-reservas.html"
+              class="menu-lateral-enlace menu-lateral-enlace-con-notificacion"
+            >
+              <img
+                src="/src/images/icono-calendario.png"
+                alt=""
+                class="menu-lateral-icono-perfil"
+              />
+              <p>Reservas</p>
+              <strong class="menu-lateral-notificacion">3</strong>
+            </a>
+          </li>
+          <li class="menu-lateral-item">
+            <a href="./perfil.html" class="menu-lateral-enlace">
+              <img
+                src="/src/images/icono-perfil.png"
+                alt=""
+                class="menu-lateral-icono"
+              />
+              <p>Perfil</p>
+            </a>
+          </li>
+          <li class="menu-lateral-item">
+            <a href="./soporte.html" class="menu-lateral-enlace">
+              <img
+                src="/src/images/icono-soporte.png"
+                alt=""
+                class="menu-lateral-icono"
+              />
+              <p>Soporte</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <footer class="menu-lateral-pie">
+        <figure class="menu-lateral-usuario-actual">
+          <img
+            src="/src/images/imagen-perfil.png"
+            alt="Avatar de perfil"
+            class="menu-lateral-usuario-avatar"
+          />
+          <figcaption class="menu-lateral-usuario-info">
+            <p class="menu-lateral-usuario-nombre">Maria E. Gónzalez</p>
+            <p class="menu-lateral-usuario-rol">Estudiante activo</p>
+          </figcaption>
+        </figure>
+
+        <a href="../../index.html" class="menu-lateral-cerrar-sesion">
+          <img
+            src="/src/images/icono-cerrar-sesion.png"
+            alt=""
+            class="menu-lateral-icono-cerrar-sesion"
+          />
+          <p class="menu-lateral-cerrar-sesion-parrafo">Cerrar Sesión</p>
+        </a>
+      </footer>
     </aside>
+    <!-- Contenido Principal -->
+    <main class="contenido-principal">
+      <!-- Cabecera -->
+      <header class="contenido-cabecera">
+        <h1 class="contenido-cabecera-titulo">Mis Reservas</h1>
+        <p class="contenido-cabecera-subtitulo">
+          Gestiona tus reservas activas e historial de préstamos
+        </p>
+      </header>
 
-    
+      <!-- Estadísticas -->
+      <section class="reservas-estadisticas">
+        <article class="estadistica-card">
+          <p class="estadistica-numero">3</p>
+          <p class="estadistica-label">Reservas Activas</p>
+        </article>
+        <article class="estadistica-card">
+          <p class="estadistica-numero">12</p>
+          <p class="estadistica-label">Completadas este mes</p>
+        </article>
+        <article class="estadistica-card">
+          <p class="estadistica-numero">1</p>
+          <p class="estadistica-label">Pendiente de confirmación</p>
+        </article>
+      </section>
 
-</body>
+      <!-- Tabs -->
+      <nav class="reservas-tabs">
+        <button class="tab-button activo">Reservas Activas</button>
+        <button class="tab-button">Historial</button>
+      </nav>
+
+      <!-- Lista de Reservas -->
+      <section class="reservas-lista">
+        <!-- Reserva 1 -->
+        <article class="reserva-card">
+          <img
+            src="../images/computadora-portatil.png"
+            alt="MacBook Pro"
+            class="reserva-imagen"
+          />
+          
+          <figure class="reserva-contenido">
+            <div class="reserva-titulo-row">
+              <h3 class="reserva-titulo">MacBook Pro 13"</h3>
+            </div>
+            <p class="reserva-codigo">Código: R2024-001</p>
+            <div class="reserva-detalles">
+              <p class="reserva-detalle-item">Hoy</p>
+              <p class="reserva-detalle-item">14:00 - 18:00</p>
+              <p class="reserva-detalle-item">Biblioteca Central, Piso 2</p>
+            </div>
+          </figure>
+          <figure class="reserva-acciones">
+            <span class="reserva-estado confirmada">Confirmada</span>
+            <div class="reserva-botones">
+              <button class="btn-reserva btn-secundario">Ver detalles</button>
+              <button class="btn-reserva btn-primario">Extender</button>
+            </div>
+          </figure>
+        </article>
+
+        <!-- Reserva 2 -->
+        <article class="reserva-card">
+          <img
+            src="../images/libro-abierto.png"
+            alt="Fundamentos de Programación"
+            class="reserva-imagen"
+          />
+          <figure class="reserva-contenido">
+            <div class="reserva-titulo-row">
+              <span class="reserva-icono-tipo">📚</span>
+              <h3 class="reserva-titulo">Fundamentos de Programación</h3>
+            </div>
+            <p class="reserva-codigo">Código: R2024-002</p>
+            <div class="reserva-detalles">
+              <p class="reserva-detalle-item">15 Sep</p>
+              <p class="reserva-detalle-item">Hasta 22 Sep</p>
+              <p class="reserva-detalle-item">Préstamo domiciliario</p>
+            </div>
+          </figure>
+          <figure class="reserva-acciones">
+            <span class="reserva-estado activa">Activa</span>
+            <div class="reserva-botones">
+              <button class="btn-reserva btn-secundario">Renovar</button>
+              <button class="btn-reserva btn-primario">Devolver</button>
+            </div>
+          </figure>
+        </article>
+
+        <!-- Reserva 3 -->
+        <article class="reserva-card">
+          <img
+            src="../images/proyector-epson.png"
+            alt="Proyector Epson"
+            class="reserva-imagen"
+          />
+          <figure class="reserva-contenido">
+            <div class="reserva-titulo-row">
+              <span class="reserva-icono-tipo">📽️</span>
+              <h3 class="reserva-titulo">Proyector Épson</h3>
+            </div>
+            <p class="reserva-codigo">Código: R2024-003</p>
+            <div class="reserva-detalles">
+              <p class="reserva-detalle-item">Mañana</p>
+              <p class="reserva-detalle-item">10:00 - 13:00</p>
+              <p class="reserva-detalle-item">Aula 205</p>
+            </div>
+          </figure>
+          <figure class="reserva-acciones">
+            <span class="reserva-estado pendiente">Pendiente</span>
+            <div class="reserva-botones">
+              <button class="btn-reserva btn-cancelar">Cancelar</button>
+              <button class="btn-reserva btn-confirmar">Confirmar</button>
+            </div>
+          </figure>
+        </article>
+      </section>
+
+      <!-- Acciones Rápidas -->
+      <section class="acciones-rapidas">
+        <h2 class="acciones-rapidas-titulo">Acciones Rápidas</h2>
+        <article class="acciones-grid">
+          <figure class="accion-card">
+            <div class="accion-icono">📖</div>
+            <p class="accion-texto">Reservar Libro</p>
+          </figure>
+          <figure class="accion-card">
+            <div class="accion-icono">💻</div>
+            <p class="accion-texto">Reservar Equipo</p>
+          </figure>
+          <figure class="accion-card">
+            <div class="accion-icono">📅</div>
+            <p class="accion-texto">Ver Calendario</p>
+          </figure>
+          <figure class="accion-card">
+            <div class="accion-icono">⏰</div>
+            <p class="accion-texto">Extender Préstamo</p>
+          </figure>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
